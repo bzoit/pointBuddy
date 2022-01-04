@@ -1,0 +1,48 @@
+h1 {
+    position: relative;
+    left: 30%;
+    top: 25px;
+    font-size: 2.4rem;
+}
+
+.teacher-login {
+    position: relative;
+    left: 250px;
+    top: 50px;
+    border: 0;
+    background: none;
+    text-decoration: none;
+}
+
+.teacher-login h2 {
+    color: black;
+    position: relative;
+    left: 210px;
+    font-size: 2.6rem;
+    bottom: 210px;
+}
+
+.student-login {
+    position: relative;
+    left: 900px;
+    bottom: 550px;
+    border: 0;
+    background: none;
+    text-decoration: none;
+}
+
+.student-login h2 {
+    color: black;
+    position: relative;
+    left: 140px;
+    font-size: 2.6rem;
+    bottom: 15px;
+}
+
+.img1:hover, .img2:hover {
+    transform: scale(1.2);
+}
+
+.img1, .img2 {
+    transition: all ease 0.5s;
+}

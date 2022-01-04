@@ -1,0 +1,56 @@
+.wrapper {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+    background-size: 100%;
+    left: 30%;
+    top: 125px;
+    background-image: url("images/galaxy.jpg");
+}
+
+.title {
+    position: relative;
+    color: white;
+    font-size: 2.2rem;
+    left: 20px;
+    top: 10px;
+}
+
+#clabel, #glabel {
+    color: white;
+    position: relative;
+    font-size: 1.3rem;
+    left: 45px;
+}
+
+#class, #grade {
+    position: relative;
+    left: 60px;
+    bottom: 2px;
+}
+
+#disclaimer {
+    color: white;
+    width: 370px;
+    position: relative;
+    font-size: 1.1rem;
+    left: 275px;
+}
+
+#submit {
+    border: 0;
+    border-radius: 4px;
+    transition: all ease 0.33s;
+    width: 110px;
+    height: 45px;
+    left: 50px;
+    position: relative;
+    top: 70px;
+    font-size: 1.1rem;
+}
+
+#submit:hover {
+    transform: scale(1.2);
+    color: blue;
+}

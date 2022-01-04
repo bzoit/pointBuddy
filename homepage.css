@@ -1,0 +1,76 @@
+.main-container {
+    color: black;
+    width: 100vw;
+    background-color: #EEF2F7;
+}
+
+.main-container h2 {
+    right: 100px;
+}
+
+@media (max-width: 1200px) {
+    .main-container h2 {
+        font-size: 1.2rem;
+    }
+    #wipb, #watb {
+        font-size: 1.4rem;
+    }
+}
+
+#wipb {
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+#watb {
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+}
+
+#tamb {
+    bottom: 45px;
+}
+
+.main-container h2 {
+    position: relative;
+    left: 20px;
+}
+
+.banner-img {
+    width: 1920px;
+    height: 720px;
+    transform: scale(0.56);
+    position: relative;
+    bottom: 155px;
+}
+
+.img-container {
+    background-size: 100%;
+    background-color: white;
+    height: 415px;
+    width: 1920px;
+    position: relative;
+    right: 7px;
+    z-index: 0;
+    bottom: 8px;
+}
+
+.login-button {
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    left: 35px;
+    transition: all ease 0.4s;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    background-color: #EEF2F7;
+}
+
+.login-button:hover {
+    transform: scale(1.2);
+    color: cornflowerblue;
+}

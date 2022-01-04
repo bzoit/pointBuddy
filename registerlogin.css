@@ -1,0 +1,97 @@
+.wrapper {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+    background-size: 100%;
+    left: 30%;
+    top: 125px;
+    background-image: url("images/galaxy.jpg");
+}
+
+.title {
+    position: relative;
+    color: white;
+    font-size: 2.2rem;
+    left: 20px;
+    top: 10px;
+}
+
+.ulabel, .plabel, .cplabel {
+    color: white;
+    position: relative;
+    font-size: 1.3rem;
+    left: 45px;
+}
+
+.plabel {
+    top: 20px;
+}
+
+.cplabel {
+    top: 40px;
+}
+
+#tpass, #tuser, #suser, #spass, #tcpass, #scpass {
+    border-radius: 3px;
+    position: relative;
+    left: 50px;
+    width: 135px;
+    border: 0;
+}
+
+#tpass, #spass {
+    top: 20px;
+}
+
+#scpass, #tcpass {
+    top: 39px;
+}
+
+#nologin {
+    color: white;
+    position: relative;
+    left: 170px;
+    top: 25px;
+}
+
+#nologin a {
+    color: lightblue;
+}
+
+.login, .signup {
+    position: relative;
+    width: 90px;
+    top: 70px;
+    left: 50px;
+    font-size: 1rem;
+    transition: all ease 0.35s;
+    border: 0;
+    border-radius: 4px;
+    height: 35px;
+}
+
+.login:hover, .signup:hover {
+    transform: scale(1.2);
+    color: blue;
+}
+
+.perror {
+    color: red;
+    position: relative;
+    top: 20px;
+    left: 65px;
+}
+
+.ierror, .uerror {
+    color: red;
+    position: relative;
+    left: 65px;
+}
+
+.cerror {
+    color: red;
+    position: relative;
+    left: 65px;
+    top: 40px;
+}
